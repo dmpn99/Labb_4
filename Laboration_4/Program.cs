@@ -4,8 +4,8 @@ class Program
 {
     static void Main(string[] args)
     {
-        Gender gender1 = Gender.NoneBinary;
-        Gender gender2 = Gender.Male;
+        Gender gender1 = Gender.IckeBinär;
+        Gender gender2 = Gender.Man;
         Hair hair1 = new Hair(45, "Svart");
         Hair hair2 = new Hair(30, "Brun");
         
@@ -14,7 +14,9 @@ class Program
         
         
         Console.WriteLine(person1.ToString());
+        Console.WriteLine();
         Console.WriteLine(person2.ToString());
+        Console.ReadKey();
 
     }
 }

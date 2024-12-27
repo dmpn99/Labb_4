@@ -10,8 +10,6 @@ public struct Hair
     {
         HairLength = hairLength;
         HairColor = hairColor;
-        
-
     }
 }
 
