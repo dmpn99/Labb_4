@@ -1,8 +1,17 @@
 namespace Laboration_4;
 
-internal struct Hair
+public struct Hair
 {
-    public int hairLength;
-    public string hairColor;
-    
+    public int HairLength;
+    public string HairColor;
+
+
+    public Hair(int hairLength, string hairColor)
+    {
+        HairLength = hairLength;
+        HairColor = hairColor;
+        
+
+    }
 }
+

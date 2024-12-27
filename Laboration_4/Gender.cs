@@ -1,8 +1,9 @@
 namespace Laboration_4;
 
-internal enum Gender
+public enum Gender
 {
     Male,
     Female,
+    NoneBinary,
     Other
 }
